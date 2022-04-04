@@ -1,0 +1,9 @@
+### graphql post request:
+POST /apis/graphql HTTP/1.1
+Host: localhost:5551
+Content-Type: application/json
+
+{
+  "query": "{ findAllTutorials{id title description author{id name}}}",
+  "variables": {}
+}
